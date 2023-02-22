@@ -1,0 +1,16 @@
+body {
+  background-image: url(https://images2.alphacoders.com/902/902432.jpg);
+}
+
+#headline {
+  font: 'Imperial Roman';
+  color: black;
+}
+
+
+img{
+  height: 50px;
+}
+#profilePic {
+  width: 30%;
+}
