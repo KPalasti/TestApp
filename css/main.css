@@ -7,6 +7,20 @@ body {
   color: black;
 }
 
+.left-Align{
+  text-align: left;
+  margin-left: 0px;
+  content: left;
+  margin: 0px;
+  flex: auto;
+  font-family: Optima, sans-serif;
+  font-size: 25px;
+}
+
+.cowboy{
+  margin-right: 0px !important;
+}
+
 .file-Upload{
   max-width: 500px;
   width: 30%;
