@@ -43,13 +43,16 @@
                     <p class="text-white-50 mb-5">Colorado Parks & Wildlife</p>
       
                     <div class="form-outline form-white mb-4">
-                      <input type="email" id="emailInputSignin" class="form-control form-control-lg" />
+                        <form id="signinForm">
+                      <input type="email" id="emailInputSignin" placeholder="Email" class="form-control form-control-lg" required/>
                       <label class="form-label" for="emailInputSignin">Email</label>
                     </div>
       
                     <div class="form-outline form-white mb-4">
-                      <input type="password" id="passwordInputSignin" class="form-control form-control-lg" />
-                      <label class="form-label" for="passwordInputSignin">Password</label>
+
+                            <input pattern=".*" type="password" id="passwordInputSignin" class="form-control form-control-lg" placeholder="Password" required/>
+                            <label class="form-label" for="passwordInputSignin">Password</label>
+                        </form>
                     </div>
       
                     <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
